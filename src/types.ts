@@ -13,6 +13,8 @@ export type DBConfig = {
 };
 
 export interface Config {
-  nasa: NasaConfig;
+  apis: {
+    nasa: NasaConfig;
+  };
   database: DBConfig;
 }
